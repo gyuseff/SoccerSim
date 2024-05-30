@@ -1,0 +1,1 @@
+This is a Soccer Simulator, a personal project to remember and practice some of the things I learned on Advanced Programming + add new knowledge I have learned.
