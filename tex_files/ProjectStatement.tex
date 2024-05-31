@@ -123,8 +123,11 @@
     \subsubsection{Attributes}
     \begin{itemize}
         \item ID: Unique ID for each player
-        \item Name
+        \item Name: Name of the player
+        \item Shirt Number: The number of the player
+        \item Team: Team to which the player belongs
         \item Role: What is the role of this player
+        \item Position: Position the player belongs to
         \item Pass: Stat that determines how good they are at passes
         \item Shot: Stat that determines how good they are at shooting at the net
         \item Tackle: Stat that determines how good they are at stealing the ball from an opponent
@@ -139,8 +142,42 @@
         \item Constructor: Will take all the attributes to create the player
         \item Update: Main method of the Player class. It determines how the player will act in each iteration. It will be dependant on the role, the ball position, the other players positions, who has the ball, etc
         \item Move: Method to translate the player in the field. It depends on the current position and the player velocity
-        \item 
+        \item Pass: Method to pass the ball to a teammate
+        \item Shot: Method to shot the ball to the opponent team net
+        \item Steal: Method to steal the ball from the current owner of the ball. Has a chance to be foul 
     \end{itemize}
 
+    \subsection{Team}
+    This are the teams playing the match
+    \subsubsection{Attributes}
+    \begin{itemize}
+        \item ID: Unique id for the team
+        \item Name: Name of the Team
+        \item Color: Colour of the team
+        \item Player: The players in the team
+        \item Points: The points that the team has accumulated (if running in a tournament mode)
+    \end{itemize}
+    \subsubsection{Methods}
+    \begin{itemize}
+        \item Update: Main method of the team. It starts the threads of the players and updates the status of the team to the match.
+        \item Setup: Sets the player in the field on their initial positions
+    \end{itemize}
+
+    \subsection{Match}
+    The class for the match
+    \subsubsection{Attributes}
+    \begin{itemize}
+        \item Teams: Teams participating in the match
+        \item Scores: Scores of each team in the match
+        \item Time: Current time of the match
+        \item Max time: Total duration of the match
+        \item Events: List of events that occured during the match
+    \end{itemize}
+    
+    \subsubsection{Methods}
+    \begin{itemize}
+        \item Update: Update the state of the match
+        \item Print\_GUI: Method to update the GUI
+    \end{itemize}
 
 \end{document}
