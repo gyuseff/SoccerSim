@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoccerSim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0445d212f578b1491278d8283fb7889e1b1f70f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aac47b601723fae590197c4a273ff09190b8c541")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoccerSim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoccerSim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

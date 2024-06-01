@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:SoccerSim"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="HelloWorld_button" Content="Click Here" HorizontalAlignment="Center" Margin="0,202,0,0" VerticalAlignment="Top" Width="120" ClickMode="Press" Click="HelloWorld_button_Click"/>
-    </Grid>
+    <Grid/>
 </Window>
